@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+
+header {
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+header > a {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    margin-left: 32px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin-right: 32px;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    flex-direction: row;
+}
+
+/* Sidebar */
+
+aside {
+    width: 200px;
+}
+
+
+aside ul {
+    list-style-type: none;
+    margin-top: 12px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: rgb(64, 162, 201);
+    font-size: 1.2em;
+    border: 1px solid black;
+}
+
+.categories a:hover {
+    background-color: rgb(64, 162, 201);
+    color: white;
+}
+
+/* Products */
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 12px;
+}
+
+.product {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 12px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.product h2 {
+    color: rgb(51, 92, 168);
+}
+
+/* Shop */
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: calc(100% - 200px);
+}
+
+/* Botão de Compra */
+
+.buyBtn {
+    background-color: rgb(64, 162, 201);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+/* Banner */
+
+.banner {
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+    padding: 10px;
+}
+
+/* Responsividade */
+
+@media screen and (max-width: 768px) {
+    .content {
+        flex-direction: column;
+    }
+    aside {
+        width: 100%;
+    }
+    
+    .banner {
+        width: 100%;
+    }
+
+    .shop {
+        width: 100%;
+    }
+
+    .categories {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 150px;
+    }
+    
+}
