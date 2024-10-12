@@ -1,0 +1,40 @@
+.bg-orange {
+    background-color: #FFA500;
+    color: white;
+}
+.bg-purple {
+    background-color: #800080;
+    color: white;
+}
+.bg-teal {
+    background-color: #008080;
+    color: white;
+}
+.bg-silver {
+    background-color: #C0C0C0;
+    color: black;
+}
+.bg-navy {
+    background-color: #000080;
+    color: white;
+}
+.bg-brown {
+    background-color: #A52A2A;
+    color: white;
+}
+.bg-pink {
+    background-color: #FFC0CB;
+    color: black;
+}
+.bg-gold {
+    background-color: #FFD700;
+    color: black;
+}
+.bg-lime {
+    background-color: #00FF00;
+    color: black;
+}
+.bg-skyblue {
+    background-color: #87CEEB;
+    color: black;
+}
