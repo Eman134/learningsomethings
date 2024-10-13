@@ -9,6 +9,7 @@ Este projeto é um site de apresentação de séries, desenvolvido com HTML, CSS
 - **HTML**: Estruturação do conteúdo da página.
 - **CSS**: Estilização do site, incluindo layout e responsividade.
 - **Bootstrap**: Utilizado para estilização e responsividade, facilitando a construção de componentes como botões, cards, acordeões, etc.
+- **FontAwesomeIcons**: Para icones customizados.
 - **Flexbox**: Utilizado para criar layouts flexíveis e alinhamento de elementos.
 - **Grid**: Aplicado para organizar o conteúdo em grades, facilitando a exibição de séries e episódios.
 
