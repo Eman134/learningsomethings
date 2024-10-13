@@ -4,6 +4,8 @@
 
 Este projeto é um site de apresentação de séries, desenvolvido com HTML, CSS e Bootstrap, projetado para ser totalmente responsivo e adaptável a diferentes tamanhos de tela. O site exibe séries com suas informações, temporadas, episódios, e permite ao usuário explorar detalhes de cada série. O projeto foi realizado como parte de um trabalho da faculdade, na disciplina de **Desenvolvimento de Interfaces Web**.
 
+![Apresentação](Apresentacao.gif)
+
 ## Tecnologias Utilizadas
 
 - **HTML**: Estruturação do conteúdo da página.
