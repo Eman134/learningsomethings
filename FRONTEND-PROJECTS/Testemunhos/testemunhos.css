@@ -1,0 +1,37 @@
+.cor1 {
+    background-color: #F49CBB;
+}
+
+.cor2 {
+    background-color: #F26A8D;
+}
+
+.nav-item {
+    background-color: rgba(242, 106, 141, 0.2);
+    margin-right: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.navbar-collapse {
+    padding: 15px;
+}
+
+.nav-item .active {
+    background-color: #e4577a;
+}
+
+.nav-item:hover {
+    background-color: #e4577a;
+}
+
+.btn:hover {
+    background-color: #e4577a;
+}
